@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './components/Header'
-import Card from './components/Card'
+import Card from './components/ImageGallery'
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
     <>
     <Header></Header>
     <Card></Card>
+
     </>
   )
 }
