@@ -1,18 +1,18 @@
-import './App.css'
-import Header from './components/Header'
-import Headings from './components/Headings'
-import Card from './components/ImageGallery'
+import React from 'react';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+// import Home from './routes/Home';
+// import Services from './routes/Services';
+// import Pricing from './routes/Pricing';
+// import Contact from './routes/Contact';
+// import Headings from './components/Headings';
 
-function App() {
-
-
+const App = () => {
   return (
     <>
     <Header></Header>
-    <Card></Card>
-    <Headings></Headings>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
