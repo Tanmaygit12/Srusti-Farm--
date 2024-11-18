@@ -10,6 +10,7 @@ import Contact from './routes/Contact'
 import Food from './routes/Services/Food'
 import Stay from './routes/Services/Stay'
 import Error from './routes/Error'
+import HolidayBanner from './routes/Home Content/HolidayBanner'
 
 // const router=createBrowserRouter([
 //   {
@@ -59,6 +60,7 @@ const router=createBrowserRouter(
       <Route path='/food' element={<Food/>}/>
       <Route path='/stay' element={<Stay/>}/>
       <Route path='/error' element={<Error/>}/>
+      <Route path='/home' element={<HolidayBanner/>}/>
       <Route Component={Error}/>
     </Route>
     

@@ -26,10 +26,10 @@ function Footer() {
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Instagram</a>
+                          <a href="" class="hover:underline ">Instagram</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Facebook</a>
+                          <a href="" class="hover:underline">Facebook</a>
                       </li>
                   </ul>
               </div>

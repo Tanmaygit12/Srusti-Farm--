@@ -16,9 +16,9 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+    <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link to="/home" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="https://i.pinimg.com/736x/d2/68/6c/d2686cf56360bfc581df50b847f16552.jpg" alt="Srusti Farm Logo" className="h-13 w-20 relative" />
         </Link>
         <button
@@ -50,7 +50,7 @@ const Header = () => {
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
              <NavLink
-               to="/"
+               to="/home"
                className={({ isActive }) => 
                 isActive 
                  ? "block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
@@ -158,6 +158,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
+    
   );
 };
 
