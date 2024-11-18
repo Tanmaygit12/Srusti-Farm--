@@ -8,7 +8,7 @@ const ImageGallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://i.pinimg.com/736x/8c/b4/da/8cb4da9fbc1748838c1424e4906fe4fc.jpg"
+            src="https://i.pinimg.com/736x/b7/19/34/b7193463c785628c2878b31b7a8ba885.jpg"
             alt="Gallery Image 1"
           />
         </div>
@@ -31,7 +31,7 @@ const ImageGallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://i.pinimg.com/564x/48/79/12/487912005d7ce66464e00b176c6bc24b.jpg"
+            src="https://i.pinimg.com/736x/d6/7a/0c/d67a0cd99847767a9b53a7c9b7b801a6.jpg"
             alt="Gallery Image 4"
           />
         </div>
@@ -54,7 +54,7 @@ const ImageGallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://i.pinimg.com/564x/f5/88/ef/f588ef4dd9c6da3dd11bcf04a94d3108.jpg"
+            src="https://i.pinimg.com/736x/f4/03/96/f403968065cac820b612d6a506127b3a.jpg"
             alt="Gallery Image 7"
           />
         </div>
@@ -77,7 +77,7 @@ const ImageGallery = () => {
         <div>
           <img
             className="h-auto max-w-full rounded-lg"
-            src="https://i.pinimg.com/564x/b1/30/36/b1303682ca53af455e7086a6b27abbd2.jpg"
+            src="https://i.pinimg.com/736x/2a/52/99/2a5299bfd4a3f023d5a31460f675eb82.jpg"
             alt="Gallery Image 10"
           />
         </div>
